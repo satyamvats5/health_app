@@ -22,9 +22,7 @@ def calc_bmi(req):
         height = height / 100
 
         BMI = (weight / (height * height))
-    print(data)
     iters = data["bmi"]
-    print("hgfd",iters)
     res = {}
     res["BMI"] = "{0:.2f}".format(BMI)
 

@@ -5,7 +5,6 @@ from flask import request
 class Calculate(Resource):
     def post(self):
         req = request.get_json(force = True)
-        print(req)
         req_id = req["id"]
         calc_func = req["func"]
 

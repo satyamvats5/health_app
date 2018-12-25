@@ -11,5 +11,4 @@ class DBHelper(object):
             self._cursor = []
 
     def load(self):
-        print("Loading")
         return self._cursor   
