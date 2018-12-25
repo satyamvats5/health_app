@@ -1,0 +1,22 @@
+{
+    "bmi": {
+        "adult": {"severe_thinness": {"start":0, "end":15.99}, 
+                    "moderate_thinness": {"start": 16, "end": 16.99},
+                    "mild_thinness": {"start": 17, "end": 18.49},
+                    "Normal": {"start": 18.5, "end": 24.99},
+                    "Overweight": {"start": 25, "end": 29.99},
+                    "Obese_Class_1": {"start":30, "end": 34.99},
+                    "Obese_Class_2": {"start": 35, "end": 40},
+                    "Obese_Class_3": {"start": 40, "end": 10000}
+        }, 
+        "child": {"severe_thinness": {"start":0, "end":15.99}, 
+                    "moderate_thinness": {"start": 16, "end": 16.99},
+                    "mild_thinness": {"start": 17, "end": 18.49},
+                    "Normal": {"start": 18.5, "end": 24.99},
+                    "Overweight": {"start": 25, "end": 29.99},
+                    "Obese_Class_1": {"start":30, "end": 34.99},
+                    "Obese_Class_2": {"start": 35, "end": 40},
+                    "Obese_Class_3": {"start": 40, "end": 10000}
+        }
+    }
+}
